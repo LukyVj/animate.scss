@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2013 Daniel Eden
+*/
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+
+// Basic effects
+@import 'animate/fun/flash.scss';
+@import 'animate/fun/pulse.scss';
+@import 'animate/fun/rubberBand.scss';
+@import 'animate/fun/shake.scss';
+@import 'animate/fun/swing.scss';
+@import 'animate/fun/tada.scss';
+@import 'animate/fun/wobble.scss';
+@import 'animate/fun/hinge.scss';
+
+// Bounce effects
+@import 'animate/bounce/bounce.scss';
+@import 'animate/bounce/bounceIn.scss';
+@import 'animate/bounce/bounceInDown.scss';
+@import 'animate/bounce/bounceInLeft.scss';
+@import 'animate/bounce/bounceInRight.scss';
+@import 'animate/bounce/bounceInUp.scss';
+@import 'animate/bounce/bounceOut.scss';
+@import 'animate/bounce/bounceOutDown.scss';
+@import 'animate/bounce/bounceOutLeft.scss';
+@import 'animate/bounce/bounceOutRight.scss';
+@import 'animate/bounce/bounceOutUp.scss';
+
+// Fade Effects
+@import 'animate/fade/fadeIn.scss';
+@import 'animate/fade/fadeInDown.scss';
+@import 'animate/fade/fadeInDownBig.scss';
+@import 'animate/fade/fadeInLeft.scss';
+@import 'animate/fade/fadeInLeftBig.scss';
+@import 'animate/fade/fadeInRight.scss';
+@import 'animate/fade/fadeInRightBig.scss';
+@import 'animate/fade/fadeInUp.scss';
+@import 'animate/fade/fadeInUpBig.scss';
+@import 'animate/fade/fadeOut.scss';
+@import 'animate/fade/fadeOutDown.scss';
+@import 'animate/fade/fadeOutDownBig.scss';
+@import 'animate/fade/fadeOutLeft.scss';
+@import 'animate/fade/fadeOutLeftBig.scss';
+@import 'animate/fade/fadeOutRight.scss';
+@import 'animate/fade/fadeOutRightBig.scss';
+@import 'animate/fade/fadeOutUp.scss';
+@import 'animate/fade/fadeOutUpBig.scss';
+
+// Flip effects
+@import 'animate/flip/flip.scss';
+@import 'animate/flip/flipInX.scss';
+@import 'animate/flip/flipInY.scss';
+@import 'animate/flip/flipOutX.scss';
+@import 'animate/flip/flipOutY.scss';
+
+// Speed
+@import 'animate/speed/lightSpeedIn.scss';
+@import 'animate/speed/lightSpeedOut.scss';
+
+// Rotate effects
+@import 'animate/rotate/rotateIn.scss';
+@import 'animate/rotate/rotateInDownLeft.scss';
+@import 'animate/rotate/rotateInDownRight.scss';
+@import 'animate/rotate/rotateInUpLeft.scss';
+@import 'animate/rotate/rotateInUpRight.scss';
+@import 'animate/rotate/rotateOut.scss';
+@import 'animate/rotate/rotateOutDownLeft.scss';
+@import 'animate/rotate/rotateOutDownRight.scss';
+@import 'animate/rotate/rotateOutUpLeft.scss';
+@import 'animate/rotate/rotateOutUpRight.scss';
+
+
+// Roll effects
+@import 'animate/roll/rollIn.scss';
+@import 'animate/roll/rollOut.scss';
+
+// Zoom effects
+@import 'animate/zoom/zoomIn.scss';
+@import 'animate/zoom/zoomInDown.scss';
+@import 'animate/zoom/zoomInLeft.scss';
+@import 'animate/zoom/zoomInRight.scss';
+@import 'animate/zoom/zoomInUp.scss';
+@import 'animate/zoom/zoomOut.scss';
+@import 'animate/zoom/zoomOutDown.scss';
+@import 'animate/zoom/zoomOutLeft.scss';
+@import 'animate/zoom/zoomOutRight.scss';
+@import 'animate/zoom/zoomOutUp.scss';
