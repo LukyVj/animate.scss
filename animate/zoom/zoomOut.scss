@@ -1,19 +1,3 @@
-@-webkit-keyframes zoomOut {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3);
-    transform: scale3d(.3, .3, .3);
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
 @keyframes zoomOut {
   0% {
     opacity: 1;
@@ -21,8 +5,6 @@
 
   50% {
     opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3);
-    -ms-transform: scale3d(.3, .3, .3);
     transform: scale3d(.3, .3, .3);
   }
 
@@ -32,6 +14,5 @@
 }
 
 .zoomOut {
-  -webkit-animation-name: zoomOut;
   animation-name: zoomOut;
 }
