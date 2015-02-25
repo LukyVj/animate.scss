@@ -1,0 +1,22 @@
+@keyframes contrast{
+  0%, 20%, 53%, 80%, 100% {
+    filter: contrast(100%)
+  }
+
+  40%, 43% {
+   filter: contrast(150%)
+  }
+
+  70% {
+    filter: contrast(200%)
+  }
+
+  90% {
+    filter: contrast(120%)
+  }
+}
+
+.contrast {
+  animation-name: contrast;
+  transform-origin: center bottom;
+}

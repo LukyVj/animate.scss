@@ -1,0 +1,22 @@
+@keyframes grayscale{
+  0%, 20%, 53%, 80%, 100% {
+    filter: grayscale(0%)
+  }
+
+  40%, 43% {
+   filter: grayscale(60%)
+  }
+
+  70% {
+    filter: grayscale(30%)
+  }
+
+  90% {
+    filter: grayscale(10%)
+  }
+}
+
+.grayscale {
+  animation-name: grayscale;
+  transform-origin: center bottom;
+}

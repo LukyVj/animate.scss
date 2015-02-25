@@ -1,0 +1,22 @@
+@keyframes blur{
+  0%, 20%, 53%, 80%, 100% {
+    filter: blur(0px)
+  }
+
+  40%, 43% {
+   filter: blur(3px)
+  }
+
+  70% {
+    filter: blur(2px)
+  }
+
+  90% {
+    filter: blur(1px)
+  }
+}
+
+.blur {
+  animation-name: blur;
+  transform-origin: center bottom;
+}

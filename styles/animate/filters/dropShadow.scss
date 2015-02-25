@@ -1,0 +1,22 @@
+@keyframes dropShadow{
+  0%, 20%, 53%, 80%, 100% {
+    filter: drop-shadow(0px 0px 0px black)
+  }
+
+  40%, 43% {
+   filter: drop-shadow(6px 6px 5px black)
+  }
+
+  70% {
+    filter: drop-shadow(16px 16px 10px black)
+  }
+
+  90% {
+    filter: drop-shadow(6px 6px 5px black)
+  }
+}
+
+.dropShadow {
+  animation-name: dropShadow;
+  transform-origin: center bottom;
+}

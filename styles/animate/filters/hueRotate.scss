@@ -1,0 +1,22 @@
+@keyframes hueRotate{
+  0%, 20%, 53%, 80%, 100% {
+    filter: hue-rotate(0deg)
+  }
+
+  40%, 43% {
+   filter: hue-rotate(60deg)
+  }
+
+  70% {
+    filter: hue-rotate(30deg)
+  }
+
+  90% {
+    filter: hue-rotate(10deg)
+  }
+}
+
+.hueRotate {
+  animation-name: hueRotate;
+  transform-origin: center bottom;
+}
